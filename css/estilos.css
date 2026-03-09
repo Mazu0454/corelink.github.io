@@ -191,7 +191,7 @@ article p {
 article img {
     width: 100%;
     margin-top: 20px;
-    height: 350px;
+    height: 450px;
 }
 
 article ul {
@@ -316,6 +316,55 @@ article ul {
         display: inline-block;
         margin-right: 10px;
         color: #46a2fd;
+    }
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body{
+        background: #121212;
+        color: #e4e4e4;
+    }
+
+    article{
+        background: #1e1e1e;
+    }
+
+    article p{
+        color: #d0d0d0;
+    }
+
+    article ul li{
+        color: #e4e4e4; /* texto */
+    }
+
+    article ul li::marker{
+        color: #46a2fd; /* color de las viñetas */
+    }
+
+    header{
+        background: #1e1e1e;
+    }
+
+    .menu nav ul li a{
+        color: #cfcfcf;
+    }
+
+    .container-footer{
+        background: #1a1a1a;
+    }
+
+    .container-footer h4{
+        color: #b5b5b5;
+    }
+
+}
+
+@media (prefers-color-scheme: dark){
+
+    .logo-img{
+        content: url("../img/corelink-dark.png");
     }
 
 }
