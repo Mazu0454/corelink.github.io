@@ -322,49 +322,50 @@ article ul {
 
 @media (prefers-color-scheme: dark) {
 
-    body{
+    body {
         background: #121212;
         color: #e4e4e4;
     }
 
-    article{
+    article {
         background: #1e1e1e;
     }
 
-    article p{
+    article p {
         color: #d0d0d0;
     }
 
-    article ul li{
-        color: #e4e4e4; /* texto */
+    article ul li {
+        color: #e4e4e4;
     }
 
-    article ul li::marker{
-        color: #46a2fd; /* color de las viñetas */
+    article ul li::marker {
+        color: #46a2fd;
     }
 
-    header{
+    header {
         background: #1e1e1e;
     }
 
-    .menu nav ul li a{
+    .menu nav ul li a {
         color: #cfcfcf;
     }
 
-    .container-footer{
+    .container-footer {
         background: #1a1a1a;
     }
 
-    .container-footer h4{
+    .container-footer h4 {
         color: #b5b5b5;
     }
-
-}
-
-@media (prefers-color-scheme: dark){
-
-    .logo-img{
+	
+    .logo {
         content: url("../img/corelink-dark.png");
     }
+	
+	.container-footer footer .logo-footer img {
+		width: 200px;
+		content: url("../img/corelink-dark.png");
+	}
 
 }
